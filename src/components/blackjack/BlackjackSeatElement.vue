@@ -236,19 +236,27 @@
         align-items: center;
     }
 
-    .blackjack-seat-element .element-user button.button-join {
-        width: 98px;
-        height: 98px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        font-size: 15px;
-        font-weight: 800;
-        color: #ffffff;
-        background-color: #003f35;
-        border: 1px dashed #44edc7;
-    }
+.blackjack-seat-element .element-user button.button-join {
+    width: 98px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 800;
+    color: #ffffff;
+    background: linear-gradient(135deg, #1e3a5c 0%, #2d4a76 50%, #4a7dff 100%);
+    border: 2px dashed #6ba1ff;
+    box-shadow: 0 4px 15px rgba(74, 125, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.blackjack-seat-element .element-user button.button-join:hover {
+    background: linear-gradient(135deg, #2d4a76 0%, #3a5b8c 50%, #6ba1ff 100%);
+    box-shadow: 0 6px 20px rgba(74, 125, 255, 0.5);
+    transform: scale(1.05);
+}
 
     .blackjack-seat-element .user-info{
         display: flex;
@@ -257,23 +265,35 @@
     }
 
     .blackjack-seat-element .user-info span {
-        margin-top: 10px;
-        font-size: 15px;
-        font-weight: 700;
-        color: #ffffff;
-    }
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #ffffff 0%, #cce0ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
 
     .blackjack-seat-element .user-avatar {
-        width: 98px;
-        height: 98px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        border-radius: 50%;
-        background-color: #000f1b;
-        border: 2px solid #9e9e9e;
-        overflow: hidden;
-    }
+    width: 98px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1e3a5c 0%, #2d4a76 100%);
+    border: 2px solid #4a7dff;
+    box-shadow: 0 4px 15px rgba(74, 125, 255, 0.3);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.blackjack-seat-element .user-avatar:hover {
+    border-color: #6ba1ff;
+    box-shadow: 0 6px 20px rgba(74, 125, 255, 0.5);
+}
 
     .blackjack-seat-element .user-avatar .avatar-image {
         width: 77px;
@@ -361,29 +381,51 @@
     }
 
     .blackjack-seat-element .game-actions {
-        width: 100px;
-        height: 60px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-image: url('~@/assets/img/blackjack-bet.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3a5c 0%, #2d4a76 50%, #3a5b8c 100%);
+    border: 1px solid #4a7dff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(74, 125, 255, 0.3);
+    padding: 0 5px;
+}
 
     .blackjack-seat-element .game-actions button.button-main {
-        width: 60px;
-        height: 60px;
-        position: relative;
-        border-radius: 50%;
-    }
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 50%;
+    background: radial-gradient(circle, #4a7dff 0%, #2d4a76 100%);
+    border: 2px solid #6ba1ff;
+    box-shadow: 0 4px 10px rgba(74, 125, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+.blackjack-seat-element .game-actions button.button-main:hover {
+    background: radial-gradient(circle, #6ba1ff 0%, #3a5b8c 100%);
+    box-shadow: 0 6px 15px rgba(74, 125, 255, 0.6);
+    transform: scale(1.1);
+}
 
     .blackjack-seat-element .game-actions button.button-side {
-        width: 20px;
-        height: 45px;
-        position: relative;
-    }
+    width: 20px;
+    height: 45px;
+    position: relative;
+    background: linear-gradient(135deg, #2d4a76 0%, #3a5b8c 100%);
+    border: 1px solid #4a7dff;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(74, 125, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.blackjack-seat-element .game-actions button.button-side:hover {
+    background: linear-gradient(135deg, #3a5b8c 0%, #4a7dff 100%);
+    box-shadow: 0 4px 12px rgba(74, 125, 255, 0.5);
+    transform: translateY(-2px);
+}
 
     .blackjack-seat-element .game-actions button.button-main .button-chip {
         width: 50px;

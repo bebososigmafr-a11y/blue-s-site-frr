@@ -215,7 +215,7 @@
     }
 
     .battles-game-element.element-group {
-        background: rgba(0, 255, 194, 0.5);
+        background: rgba(166, 170, 169, 0.5);
     }
 
     .battles-game-element.element-cursed {
@@ -277,7 +277,7 @@
     }
 
     .battles-game-element.element-group .info-type:before {
-        background: linear-gradient(225deg, #057167 0%, #06584f 100%);
+        background: linear-gradient(225deg, #3a0b86ff 0%, #06584f 100%);
     }
 
     .battles-game-element.element-cursed .info-option:before {
@@ -326,13 +326,13 @@
     }
 
     .battles-game-element.element-group .type-inner {
-        background: linear-gradient(223deg, rgba(0, 255, 194, 0.25) 0%, rgba(0, 170, 109, 0.25) 100%), 
+        background: linear-gradient(223deg, rgba(46, 76, 241, 0.25) 0%, rgba(0, 170, 109, 0.25) 100%), 
                     linear-gradient(223deg, rgba(5, 29, 48, 0.35) 0%, rgba(31, 99, 153, 0) 100%),
                     repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03) 5px, rgba(2, 21, 36, 0.25) 5px, rgba(2, 21, 36, 0.25) 10px);
     }
 
     .battles-game-element.element-group .type-inner span {
-        background: linear-gradient(255deg, #00ffc2 0%, #00aa6d 100%);
+        background: linear-gradient(255deg, #5900ffff 0%, #23113bff 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -363,7 +363,7 @@
     }
 
     .battles-game-element.element-cursed .option-inner span {
-        color: #f24034;
+        color: #6d34f2ff;
     }
 
     .battles-game-element.element-terminal .option-inner span {
@@ -422,11 +422,11 @@
 
     .battles-game-element .element-user.user-empty {
         align-items: center;
-        border: 1px solid #134166;
+        border: 1px solid #1f1366ff;
     }
 
     .battles-game-element .element-user.user-blue {
-        border: 1px solid #559ee4;
+        border: 1px solid #3d096eff;
     }
 
     .battles-game-element .element-user.user-green {
@@ -455,12 +455,12 @@
 
     .battles-game-element .element-user.user-bot,
     .battles-game-element .element-user.user-admin {
-        border: 1px solid #00ffc2;
+        border: 1px solid #0026ffff;
     }
 
     .battles-game-element .element-user.user-empty svg {
         width: 14px;
-        fill: #134166;
+        fill: #3f0c6eff;
         animation: waiting_animation 1.5s infinite linear both;
     }
 
@@ -660,7 +660,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: #01c98c;
+        background: #190864ff;
         clip-path: polygon(4px 0, calc(100% - 4px) 0, 100% 25%, 100% 75%, calc(100% - 4px) 100%, 4px 100%, 0 75%, 0 25%);
     }
 
@@ -670,7 +670,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(242deg, rgba(0, 255, 194, 0.4) 16%, rgba(0, 231, 170, 0.22) 32%, rgba(0, 218, 157, 0.1) 50%, rgba(0, 195, 134, 0.26) 80%, rgba(0, 170, 109, 0.44) 100%), 
+        background: linear-gradient(242deg, rgba(143, 142, 155, 0.4) 16%, rgba(0, 231, 170, 0.22) 32%, rgba(0, 218, 157, 0.1) 50%, rgba(0, 195, 134, 0.26) 80%, rgba(0, 170, 109, 0.44) 100%), 
                     linear-gradient(180deg, #073137 0%, #082538 100%);
         clip-path: polygon(4px 0, calc(100% - 4px) 0, 100% 25%, 100% 75%, calc(100% - 4px) 100%, 4px 100%, 0 75%, 0 25%);
     }
@@ -678,7 +678,7 @@
     .battles-game-element .funding-inner span {
         font-size: 11px;
         font-weight: 800;
-        background: linear-gradient(239deg, #00ffc2 -100%, #00aa6d 120%);
+        background: linear-gradient(239deg, #450d8dff -100%, #3620afff 120%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -699,11 +699,11 @@
     }
 
     .battles-game-element button.button-waiting .button-inner {
-        background: linear-gradient(255deg, rgba(0, 255, 194, 0.15) 0%, rgba(0, 170, 109, 0.15) 100%), #051f35;
+        background: linear-gradient(255deg, rgba(25, 9, 119, 0.15) 0%, rgba(0, 170, 109, 0.15) 100%), #051f35;
     }
 
     .battles-game-element button.button-join .button-inner {
-        background: linear-gradient(255deg, #00ffc2 0%, #00aa6d 100%);
+        background: linear-gradient(255deg, #280e88ff 0%, #571d5fff 100%);
     }
 
     .battles-game-element a.link-view .link-inner {
@@ -718,7 +718,7 @@
     }
 
     .battles-game-element button.button-waiting .button-inner svg {
-        fill: #00ffc2;
+        fill: #2f00ffff;
         animation: waiting_animation 1.5s infinite linear both;
     }
 

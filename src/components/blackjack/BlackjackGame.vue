@@ -176,11 +176,14 @@
 
 <style scoped>
     .blackjack-game {
-        width: 1090px;
-        position: relative;
-        margin-top: 35px;
-        padding-bottom: 55px;
-    }
+    width: 1090px;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 55px;
+    background: radial-gradient(50% 50% at 50% 50%, #2D1B69 0%, #1A103C 100%);
+    border-radius: 15px;
+    padding: 20px;
+}
 
     .blackjack-game .game-table {
         width: 100%;
@@ -203,15 +206,19 @@
     }
 
     .blackjack-game .inner-created {
-        width: 400px;
-        margin-top: 170px;
-        text-align: center;
-        font-family: 'Rubik';
-        font-size: 34px;
-        font-weight: 900;
-        color: #ffffff;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+    width: 400px;
+    margin-top: 170px;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 34px;
+    font-weight: 900;
+    background: linear-gradient(250deg, #A78BFA 0%, #7C3AED 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
     .blackjack-game .game-dealer {
         position: absolute;

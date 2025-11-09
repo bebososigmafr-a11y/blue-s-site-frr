@@ -72,7 +72,7 @@
         position: absolute;
         top: -2px;
         left: 0;
-        background: #0a2f4b;
+        background: #726c6cff;
         clip-path: polygon(3px 0, calc(100% - 3px) 0, 100% 25%, 100% 75%, calc(100% - 3px) 100%, 3px 100%, 0 75%, 0 25%);
         transition: all 0.3s ease;
     }

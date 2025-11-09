@@ -1,9 +1,9 @@
 <template>
     <div class="chat-emojis-dropdown" v-bind:class="{ 'dropdown-open': dropdownOpen === true }">
-        <button v-on:click="chatToggleDropdown" class="button-toggle">
-            <IconEmojisGradient />
-            <span class="gradient-green">EMOJIS</span>
-        </button>
+      <button v-on:click="chatToggleDropdown" class="button-toggle">
+    <IconEmojisGradient />
+    <span class="gradient-blue">EMOJIS</span>
+</button>
         <div class="dropdown-window">
             <div class="window-inner">
                 <div class="inner-list">
@@ -94,27 +94,26 @@
     }
 
     .chat-emojis-dropdown .window-inner {
-        width: 295px;
-        height: 110px;
-        position: relative;
-        margin-bottom: 14px;
-        padding: 13px;
-        border-radius: 15px;
+    width: 295px;
+    height: 110px;
+    position: relative;
+    margin-bottom: 14px;
+    padding: 13px;
+    border-radius: 15px;
+    background: radial-gradient(163.2% 163.2% at 50% -31.45%, rgba(59, 130, 246, 0.3) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(256.23deg, #1E3A8A 0%, #1E40AF 100%);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
 
-        background: radial-gradient(163.2% 163.2% at 50% -31.45%, rgba(0, 255, 194, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(256.23deg, #07263d 0%, #07243a 100%);
-        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
-    }
-
-    .chat-emojis-dropdown .window-inner::before {
-        content: '';
-        width: 0;
-        height: 0;
-        position: absolute;
-        bottom: -14px;
-        right: 60px;
-        border-left: 15px solid transparent;
-        border-top: 14px solid #072d41;
-    }
+.chat-emojis-dropdown .window-inner::before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -14px;
+    right: 60px;
+    border-left: 15px solid transparent;
+    border-top: 14px solid #2B6CB0;
+}
 
     .chat-emojis-dropdown .inner-list {
         width: 100%;

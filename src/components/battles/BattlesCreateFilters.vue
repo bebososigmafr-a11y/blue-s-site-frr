@@ -183,28 +183,28 @@
         height: 19px;
         -webkit-appearance: none;
         appearance: none;
-        background: #1c5064;
+        background: #33035aff;
         clip-path: polygon(3px 0, calc(100% - 3px) 0, 100% 25%, 100% 75%, calc(100% - 3px) 100%, 3px 100%, 0 75%, 0 25%);
         cursor: pointer;
     }
 
     .battles-create-filters .settings-level.level-active input::-webkit-slider-thumb,
     .battles-create-filters .settings-funding.funding-active input::-webkit-slider-thumb {
-        background: linear-gradient(255deg, #00ffc2 0%, #00aa6d 100%);
+        background: linear-gradient(255deg, #785a7cff 0%, #785a7cff 100%);
     }
 
    .battles-create-filters .settings-level input::-moz-range-thumb,
    .battles-create-filters .settings-funding input::-moz-range-thumb {
         width: 25px;
         height: 19px;
-        background: #1c5064;
+        background: #460d74ff;
         clip-path: polygon(3px 0, calc(100% - 3px) 0, 100% 25%, 100% 75%, calc(100% - 3px) 100%, 3px 100%, 0 75%, 0 25%);
         cursor: pointer;
     }
 
     .battles-create-filters .settings-level.level-active input::-moz-slider-thumb,
     .battles-create-filters .settings-funding.funding-active input::-moz-slider-thumb {
-        background: linear-gradient(255deg, #00ffc2 0%, #00aa6d 100%);
+        background: linear-gradient(255deg, #ffffffff 0%, #ffffffff 100%);
     }
 
     @media only screen and (max-width: 1100px) {

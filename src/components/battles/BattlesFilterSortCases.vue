@@ -53,7 +53,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: #092a45;
+        background: #4400ffff;
         clip-path: polygon(9px 0, calc(100% - 9px) 0, 100% 25%, 100% 75%, calc(100% - 9px) 100%, 9px 100%, 0 75%, 0 25%);
     }
 
@@ -64,7 +64,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 15px;
-        background-color: #09263f;
+        background-color: #990f92ff;
         clip-path: polygon(9px 0, calc(100% - 9px) 0, 100% 25%, 100% 75%, calc(100% - 9px) 100%, 9px 100%, 0 75%, 0 25%);
     }
 
@@ -89,14 +89,14 @@
     button.battles-filter-sort-cases .inner-value svg {
         width: 12px;
         margin-right: 8px;
-        fill: #01e0a3;
+        fill: #150185ff;
     }
 
     button.battles-filter-sort-cases .inner-value span {
         text-transform: uppercase;
         margin-left: 5px;
         font-weight: 700;
-        color: #01e0a3;
+        color: #360366ff;
     }
 
     @media only screen and (max-width: 750px) {

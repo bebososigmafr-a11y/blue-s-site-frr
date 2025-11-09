@@ -1,163 +1,179 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Rubik:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-
-body {
-    background: radial-gradient(50% 50% at 50% 50%, #062843 0%, #011627 100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-input,
-textarea,
-select {
-    border: none;
-    outline: none;
-    font-family: 'Open Sans', sans-serif;
-}
-
-input {
-    -moz-appearance: textfield;
-  }
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
 }
 
-button {
-    border: none;
-    outline: none;
-    font-family: 'Open Sans', sans-serif;
-    background-color: transparent;
-    cursor: pointer;
+/* ===== BASE ===== */
+html, body {
+  height: 100%;
+  color: #f5f3ff;
+  background: radial-gradient(circle at center, #1a103d 0%, #0d071e 100%) !important;
+  overflow-x: hidden;
 }
 
-button:disabled,
-input:disabled {
-    cursor: not-allowed;
+body, main, div, section, article {
+  background: transparent !important;
+  color: #f5f3ff !important;
 }
 
+/* ===== GLOBAL CONTAINERS ===== */
+.card, .box, .panel, .container, .content, .wrapper, .section, .modal, .popup {
+  background: linear-gradient(145deg, rgba(68, 32, 120, 0.75), rgba(32, 16, 64, 0.9)) !important;
+  border: 1px solid rgba(173, 120, 255, 0.25) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 6px 20px rgba(128, 0, 255, 0.25) !important;
+  backdrop-filter: blur(8px) !important;
+  padding: 12px !important;
+}
+
+/* ===== NAVBAR / HEADER / FOOTER ===== */
+header, nav, footer, .navbar, .header, .footer {
+  background: linear-gradient(135deg, #3b1e75, #25124b) !important;
+  border-bottom: 1px solid rgba(173, 120, 255, 0.3) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* ===== BUTTONS ===== */
+button, .btn, [type="button"], [type="submit"] {
+  background: linear-gradient(135deg, #7c3aed, #5b21b6) !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  box-shadow: 0 6px 16px rgba(124, 58, 237, 0.3) !important;
+}
+button:hover, .btn:hover {
+  background: linear-gradient(135deg, #a855f7, #7c3aed) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.4);
+}
+
+/* ===== INPUTS / SELECTS / TEXTAREAS ===== */
+input, select, textarea {
+  background: rgba(40, 20, 80, 0.85) !important;
+  border: 1px solid rgba(173, 120, 255, 0.25) !important;
+  border-radius: 8px !important;
+  color: #f5f3ff !important;
+  padding: 8px 12px !important;
+  outline: none !important;
+}
+input:focus, select:focus, textarea:focus {
+  border-color: #a855f7 !important;
+  box-shadow: 0 0 10px rgba(168, 85, 247, 0.3) !important;
+}
+
+/* ===== LINKS ===== */
 a {
-    text-decoration: none;
+  color: #c084fc !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #a855f7 !important;
+  text-shadow: 0 0 10px rgba(168, 85, 247, 0.4);
 }
 
-*::-webkit-scrollbar {
-    width: 0;
-    height: 0;
+/* ===== TITLES ===== */
+h1, h2, h3, h4, h5 {
+  background: linear-gradient(90deg, #c084fc, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-*::-webkit-scrollbar-thumb {
-    background-color: transparent;
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #7c3aed, #5b21b6);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(20, 10, 40, 0.6);
 }
 
-span.gradient-green {
-    background: linear-gradient(250deg, #00ffc2 0%, #00aa6d 100%), #a6cae8;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+/* ===== CASE BATTLES ===== */
+.case-battles {
+  background: linear-gradient(145deg, rgba(45, 20, 85, 0.95), rgba(20, 10, 40, 0.95)) !important;
+  border: 1px solid rgba(173, 120, 255, 0.3) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 0 40px rgba(128, 0, 255, 0.2) !important;
+  padding: 20px !important;
+  position: relative;
+  overflow: hidden;
+}
+.case-battles::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.1) 0%, transparent 60%);
+  animation: casePulse 6s infinite linear;
+  z-index: 0;
+}
+@keyframes casePulse {
+  0% { transform: rotate(0deg); opacity: 0.6; }
+  50% { transform: rotate(180deg); opacity: 1; }
+  100% { transform: rotate(360deg); opacity: 0.6; }
+}
+.case-battles * {
+  position: relative;
+  z-index: 1;
 }
 
-span.gradient-yellow {
-    background: linear-gradient(250deg, #fca311 0%, #ffb703 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+/* ===== CASE BOXES / GAME CARDS ===== */
+.case-box, .game-card, .mode-card {
+  background: linear-gradient(145deg, rgba(90, 40, 150, 0.85), rgba(40, 20, 80, 0.9)) !important;
+  border: 1px solid rgba(173, 120, 255, 0.3) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 16px rgba(124, 58, 237, 0.25) !important;
+  padding: 12px !important;
+  text-align: center;
+  transition: 0.3s ease;
+}
+.case-box:hover, .game-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.4);
 }
 
-span.gradient-blue {
-    background: linear-gradient(250deg, #3b7eb7 0%, #145081 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+/* ===== GAMES ===== */
+[class*="game"], .game-container {
+  background: linear-gradient(160deg, rgba(45, 20, 85, 0.9), rgba(15, 5, 30, 0.95)) !important;
+  border: 1px solid rgba(173, 120, 255, 0.25) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.2) !important;
 }
 
-span.gradient-blue-dark {
-    background: linear-gradient(90deg, #3f63ff 0%, #355aba 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+/* ===== MODAL / POPUP OVERLAY ===== */
+.popup-backdrop,
+.modal-backdrop,
+.overlay,
+.backdrop,
+.dialog-backdrop,
+.v-overlay,
+.v-dialog__scrim {
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(25, 10, 50, 0.85) !important; /* Dark purple tint */
+  backdrop-filter: blur(10px) !important;
+  z-index: 999 !important;
+  animation: fadeIn 0.3s ease forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-span.gradient-purple {
-    background: linear-gradient(250deg, #37367d 0%, #796bfb 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-}
-
-span.gradient-red {
-    background: linear-gradient(250deg, #d15e5e 0%, #ff4545 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-}
-
-span.gradient-pink {
-    background: linear-gradient(250deg, #cc5cb3 0%, #ff32d2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-}
-
-span.gradient-orange {
-    background: linear-gradient(250deg, #ba7b4d 0%, #fe6b00 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-}
-
-/* ###################################################################### */
-/* ####################### Optimized CSS Section ######################## */
-/* ###################################################################### */
-
-.text-green-gradient,
-.router-link-active .text-green-gradient-active,
-.router-link-exact-active .text-green-gradient-exact {
-    background: linear-gradient(255deg, #00ffc2 0%, #00aa6d 100%), #a6cae8;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-}
-
-.text-yellow-gradient,
-.router-link-active .text-yellow-gradient-active,
-.router-link-exact-active .text-yellow-gradient-exact {
-    background: linear-gradient(255deg, #fca311 0%, #ffb703 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-}
-
-.text-orange-gradient,
-.router-link-active .text-orange-gradient-active,
-.router-link-exact-active .text-orange-gradient-exact {
-    background: linear-gradient(255deg, #ff5c00 0%, #db7d48 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+/* ===== GLOW HOVER ===== */
+.glow:hover {
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.4) !important;
+  transform: translateY(-2px);
 }

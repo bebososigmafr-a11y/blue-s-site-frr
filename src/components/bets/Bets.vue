@@ -94,38 +94,44 @@
     }
 
     .bets .bets-nav button.nav-link {
-        position: relative;
-        margin-right: 40px;
-        padding-bottom: 23px;
-        font-size: 16px;
-        font-weight: 600;
-        color: #bbbfd0;
-        transition: all 0.3s ease;
-    }
+    position: relative;
+    margin-right: 40px;
+    padding-bottom: 23px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #bbbfd0;
+    transition: all 0.3s ease;
+    background-color: #1e3a5c; /* Dark blue background */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
 
     .bets .bets-nav button.nav-link:last-of-type {
         margin-right: 0;
     }
 
     .bets .bets-nav button.nav-link::after {
-       content: '';
-       width: 100%;
-       height: 1px;
-       position: absolute;
-       left: 0;
-       bottom: 0;
-       background-color: #ffffff;
-       transition: all 0.3s ease;
-       opacity: 0;
-   }
+   content: '';
+   width: 100%;
+   height: 2px;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   background-color: #4a7dff; /* Blue accent line */
+   transition: all 0.3s ease;
+   opacity: 0;
+}
 
-   .bets .bets-nav button.nav-link.link-active {
-       color: #ffffff;
-   }
+  .bets .bets-nav button.nav-link.link-active {
+    color: #ffffff;
+    background-color: #2d4a76; /* Darker blue for active state */
+}
 
    .bets .bets-nav button.nav-link.link-active::after {
-       opacity: 1;
-   }
+   opacity: 1;
+   background-color: #4a7dff; /* Ensure active state uses blue */
+}
 
    .bets .bets-list {
        width: 100%;

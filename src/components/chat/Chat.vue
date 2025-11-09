@@ -18,7 +18,7 @@
             </button>
             <div class="header-online">
                 <IconUsers />
-                <span class="gradient-green">{{chatGetOnline}}</span>
+                <span class="gradient-purple-light">{{chatGetOnline}}</span>
             </div>
             <ChatRoomDropdown />
             <RainTipDropdown />
@@ -268,7 +268,7 @@
         top: 0;
         right: 0;
         padding: 17px 0 20px 0;
-        background: linear-gradient(180deg, #062641 0%, #031422 140%);
+        background: linear-gradient(180deg, #2D1B69 0%, #1A103C 140%);
         box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.07);
         z-index: 50;
         transition: transform 0.3s ease;
@@ -284,7 +284,7 @@
     aside#chat .chat-toggle button {
         width: 50px;
         height: 50px;
-        filter: drop-shadow(0px 4px 25px rgba(1, 230, 169, 0.15)) drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.35));
+        filter: drop-shadow(0px 4px 25px rgba(167, 139, 250, 0.15)) drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.35));
     }
 
     aside#chat .chat-toggle button .button-inner {
@@ -293,7 +293,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(255deg, #00ffc2 0%, #00aa6d 75%);
+        background: linear-gradient(255deg, #A78BFA 0%, #7C3AED 75%);
         clip-path: polygon(25% 0, 75% 0, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0 75%, 0 25%);
     }
 
@@ -317,7 +317,7 @@
     }
 
     aside#chat .chat-header button.button-close svg {
-        fill: #6e95b6;
+        fill: #A78BFA;
     }
 
     aside#chat .header-online {
@@ -331,6 +331,7 @@
 
     aside#chat .header-online svg {
         margin-right: 9px;
+        fill: #A78BFA;
     }
 
     aside#chat .chat-content {
@@ -346,7 +347,7 @@
        position: absolute;
        top: 0;
        left: 0;
-       background: linear-gradient(180deg, rgba(6, 36, 62, 1) 0%, rgba(6, 36, 62, 0.7) 75%, rgba(6, 36, 62, 0.1) 100%);
+       background: linear-gradient(180deg, rgba(45, 27, 105, 1) 0%, rgba(45, 27, 105, 0.7) 75%, rgba(45, 27, 105, 0.1) 100%);
        z-index: 2;
    }
 
@@ -403,7 +404,7 @@
         height: 30px;
         position: relative;
         padding: 1px;
-        filter: drop-shadow(0px 2px 10px rgba(1, 230, 169, 0.15)) drop-shadow(0px 4px 25px rgba(15, 41, 63, 0.35));
+        filter: drop-shadow(0px 2px 10px rgba(167, 139, 250, 0.15)) drop-shadow(0px 4px 25px rgba(45, 27, 105, 0.35));
         z-index: 1;
     }
 
@@ -414,7 +415,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #01e1a4 100%);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #7C3AED 100%);
         clip-path: polygon(7px 0, calc(100% - 7px) 0, 100% 25%, 100% 75%, calc(100% - 7px) 100%, 7px 100%, 0 75%, 0 25%);
         z-index: -1;
     }
@@ -428,7 +429,7 @@
         font-size: 10px;
         font-weight: 700;
         color: #ffffff;
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.128) 0%, rgba(0, 33, 24, 0.132) 25%, rgba(0, 99, 73, 0.144986) 60%, rgba(1, 193, 143, 0.0925409) 80%, rgba(1, 237, 176, 0.068) 100%) #064552;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.128) 0%, rgba(45, 27, 105, 0.132) 25%, rgba(124, 58, 237, 0.144986) 60%, rgba(167, 139, 250, 0.0925409) 80%, rgba(195, 181, 253, 0.068) 100%) #2D1B69;
         clip-path: polygon(7px 0, calc(100% - 7px) 0, 100% 25%, 100% 75%, calc(100% - 7px) 100%, 7px 100%, 0 75%, 0 25%);
     }
 
@@ -455,7 +456,7 @@
         width: 100%;
         margin-top: 15px;
         padding-bottom: 15px;
-        border-bottom: 1px solid #0e3350;
+        border-bottom: 1px solid #4C1D95;
     }
 
     aside#chat .loading-placeholder:first-of-type {
@@ -474,7 +475,7 @@
         margin-right: 13px;
         border-radius: 50%;
         overflow: hidden;
-        background-color: #083357;
+        background-color: #4C1D95;
     }
 
     aside#chat .user-username {
@@ -483,7 +484,7 @@
         position: relative;
         border-radius: 5px;
         overflow: hidden;
-        background-color: #083357;
+        background-color: #4C1D95;
     }
 
     aside#chat .placeholder-text {
@@ -493,7 +494,7 @@
         margin-top: 8px;
         border-radius: 5px;
         overflow: hidden;
-        background-color: #083357;
+        background-color: #4C1D95;
     }
 
     aside#chat .user-avatar::after,
@@ -540,7 +541,7 @@
         height: 62px;
         position: relative;
         padding: 1px;
-        filter: drop-shadow(0px 4px 25px rgba(15, 41, 63, 0.35));
+        filter: drop-shadow(0px 4px 25px rgba(45, 27, 105, 0.35));
     }
 
     aside#chat .footer-input::before {
@@ -550,7 +551,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: linear-gradient(180deg, #010a11 0%, #112c44 100%);
+        background: linear-gradient(180deg, #1A103C 0%, #2D1B69 100%);
         clip-path: polygon(10px 0, calc(100% - 10px) 0, 100% 25%, 100% 75%, calc(100% - 10px) 100%, 10px 100%, 0 75%, 0 25%);
     }
 
@@ -561,12 +562,12 @@
         font-weight: 600;
         font-size: 12px;
         color: #ffffff;
-        background-color: #041828;
+        background-color: #1A103C;
         clip-path: polygon(10px 0, calc(100% - 10px) 0, 100% 25%, 100% 75%, calc(100% - 10px) 100%, 10px 100%, 0 75%, 0 25%);
     }
 
     aside#chat .footer-input input::placeholder {
-        color: #5e768e;
+        color: #A78BFA;
     }
 
     aside#chat .footer-input button.button-send {
@@ -593,11 +594,12 @@
 
     aside#chat .footer-actions button.button-rules {
         margin-right: 15px;
-        color: #327eba;
+        color: #A78BFA;
     }
 
     aside#chat .footer-actions button.button-rules svg {
         margin-right: 7px;
+        fill: #A78BFA;
     }
 
     @keyframes loading_animation {

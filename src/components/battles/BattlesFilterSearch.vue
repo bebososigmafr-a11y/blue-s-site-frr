@@ -50,7 +50,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: #0a273f;
+        background: #a79a9aff;
         clip-path: polygon(9px 0, calc(100% - 9px) 0, 100% 25%, 100% 75%, calc(100% - 9px) 100%, 9px 100%, 0 75%, 0 25%);
         z-index: -1;
     }

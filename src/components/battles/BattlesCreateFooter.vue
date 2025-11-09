@@ -150,7 +150,7 @@
         position: absolute;
         top: -2px;
         left: 0;
-        background: #0a2f4b;
+        background: #4b0a0aff;
         clip-path: polygon(3px 0, calc(100% - 3px) 0, 100% 25%, 100% 75%, calc(100% - 3px) 100%, 3px 100%, 0 75%, 0 25%);
         transition: all 0.3s ease;
     }
@@ -158,7 +158,7 @@
     .battles-create-footer .left-private.private-active button:after,
     .battles-create-footer .left-affiliate.affiliate-active button:after {
         transform: translate(20px, 0);
-        background: linear-gradient(255deg, #00ffc2 0%, #00aa6d 100%);
+        background: linear-gradient(255deg, #cc00ffff 0%, #5a01ffff 100%);
     }
 
     .battles-create-footer .right-cursed,
@@ -213,7 +213,7 @@
         width: 45px;
         height: 15px;
         position: relative;
-        filter: drop-shadow(0px 4px 25px rgba(15, 41, 63, 0.35));
+        filter: drop-shadow(0px 4px 25px rgba(63, 15, 15, 0.35));
     }
 
     .battles-create-footer .right-cursed button:before,
@@ -224,7 +224,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background-color: #031523;
+        background-color: #230803ff;
         clip-path: polygon(4px 0, calc(100% - 4px) 0, 100% 25%, 100% 75%, calc(100% - 4px) 100%, 4px 100%, 0 75%, 0 25%);
     }
 
@@ -236,7 +236,7 @@
         position: absolute;
         top: -2px;
         left: 0;
-        background: #0a2f4b;
+        background: #222222ff;
         clip-path: polygon(3px 0, calc(100% - 3px) 0, 100% 25%, 100% 75%, calc(100% - 3px) 100%, 3px 100%, 0 75%, 0 25%);
         transition: all 0.3s ease;
     }
@@ -244,7 +244,7 @@
     .battles-create-footer .right-cursed.cursed-active button:after,
     .battles-create-footer .right-terminal.terminal-active button:after {
         transform: translate(20px, 0);
-        background: linear-gradient(255deg, #00ffc2 0%, #00aa6d 100%);
+        background: linear-gradient(255deg, #ff0000ff 0%, #efff14ff 100%);
     }
 
     @media only screen and (max-width: 850px) {

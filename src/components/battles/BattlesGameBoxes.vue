@@ -98,7 +98,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: #0d314e;
+        background: #1a0781ff;
         clip-path: polygon(11px 0, calc(100% - 11px) 0, 100% 25%, 100% 75%, calc(100% - 11px) 100%, 11px 100%, 0 75%, 0 25%);
         z-index: -1;
     }
@@ -107,12 +107,12 @@
         width: 100%;
         height: 100%;
         display: flex;
-        background: #052138;
+        background: #06165eff;
         clip-path: polygon(11px 0, calc(100% - 11px) 0, 100% 25%, 100% 75%, calc(100% - 11px) 100%, 11px 100%, 0 75%, 0 25%);
     }
 
     .battles-game-element .battles-game-boxes .background-inner {
-        background: #07243b;
+        background: #180b53ff;
     }
 
     .battles-game-boxes .boxes-selector {

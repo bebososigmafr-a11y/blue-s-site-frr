@@ -87,7 +87,7 @@
         padding: 15px;
         background: linear-gradient(0deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%), 
                     linear-gradient(223deg, rgba(5, 29, 48, 0.35) 0%, rgba(31, 99, 153, 0.09) 50%, rgba(5, 29, 48, 0.35) 100%);
-        border: 1px solid #0a273f;
+        border: 1px solid #9b9b9bff;
     }
 
     .modal-battles-select .battles-box-element {
@@ -99,7 +99,7 @@
 
     .modal-battles-select .battles-box-element.element-selected {
         background: linear-gradient(223deg, rgba(5, 29, 48, 0.35) 0%, rgba(31, 99, 153, 0.1) 50%, rgba(5, 29, 48, 0.35) 100%);
-        border: 1px solid #103654;
+        border: 1px solid #2414b3ff;
     }
 
     .battles-box-element:nth-child(6n) {
@@ -121,7 +121,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: #0a273f;
+        background: #131220ff;
         clip-path: polygon(6px 0, calc(100% - 6px) 0, 100% 25%, 100% 75%, calc(100% - 6px) 100%, 6px 100%, 0 75%, 0 25%);
         z-index: -1;
     }
@@ -215,7 +215,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: linear-gradient(180deg, rgba(0, 170, 109, 0) 0%, #00ffc2 100%);
+        background: linear-gradient(180deg, rgba(0, 170, 109, 0) 0%, #800485ff 100%);
         clip-path: polygon(4px 0, calc(100% - 4px) 0, 100% 25%, 100% 75%, calc(100% - 4px) 100%, 4px 100%, 0 75%, 0 25%);
     }
 
@@ -228,7 +228,7 @@
         font-size: 13px;
         font-weight: 800;
         color: #ffffff;
-        background: linear-gradient(255deg, #00ffc2 0%, #00aa6d 100%);
+        background: linear-gradient(255deg, #000000ff 0%, #7a7a7aff 100%);
         clip-path: polygon(4px 0, calc(100% - 4px) 0, 100% 25%, 100% 75%, calc(100% - 4px) 100%, 4px 100%, 0 75%, 0 25%);
     }
 

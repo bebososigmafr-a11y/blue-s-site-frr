@@ -6,7 +6,7 @@
         <div v-if="message.type === 'rainTip' || message.type === 'rainCompleted'" class="element-rain">
             <div class="rain-header">
                 <IconRainGradient />
-                <span class="text-green-gradient">{{ message.type === 'rainTip' ? 'RAIN TIP' : 'RAIN COMPLETED!' }}</span>
+               <span class="text-purple-gradient">{{ message.type === 'rainTip' ? 'RAIN TIP' : 'RAIN COMPLETED!' }}</span>
             </div>
             <div class="rain-content">
                 <div v-if="message.type === 'rainTip'" class="content-tip">
@@ -30,7 +30,7 @@
         <div v-else-if="message.type === 'system'" class="element-system">
             <div class="system-header">
                 <IconSystem />
-                <span class="text-orange-gradient">SYSTEM MESSAGE</span>
+                <span class="text-purple-dark-gradient">SYSTEM MESSAGE</span>
             </div>
             <div v-html="message.message" class="system-content"></div>
         </div>
@@ -70,7 +70,7 @@
                         <path d="M2.88875 6.73564L5.10999 9.02443L4.22187 9.9397L5.11125 10.8556L4.2225 11.7709L2.66688 10.1688L0.888749 12L0 11.0847L1.77813 9.25293L0.222502 7.65155L1.11125 6.73629L2 7.6509L2.88812 6.73564H2.88875ZM0.34318 0L2.57197 0.00194187L9.99937 7.65155L10.8887 6.73629L11.7775 7.65155L10.2225 9.25357L12 11.0847L11.1113 12L9.33312 10.1688L7.7775 11.7709L6.88875 10.8556L7.7775 9.9397L0.345066 2.28556L0.34318 0ZM9.42992 0L11.6568 0.00194187L11.6581 2.28232L9.11062 4.90512L6.88812 2.61697L9.42992 0Z" fill="url(#paint0_linear_3734_2952)"/>
                         <defs>
                         <linearGradient id="paint0_linear_3734_2952" x1="12" y1="0" x2="-2.09436" y2="3.45416" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#00FFC2"/>
+                        <stop stop-color="#ff0000ff"/>
                         <stop offset="1" stop-color="#00AA6D"/>
                         </linearGradient>
                         </defs>
@@ -195,7 +195,7 @@
     .chat-message-element.element-rain {
         padding: 15px 15px 15px 14px;
         background: linear-gradient(100deg, rgba(0, 255, 194, 0.1) 5%, rgba(0, 255, 194, 0.07) 30%, rgba(0, 255, 194, 0.06) 50%, rgba(0, 0, 0, 0) 80%), rgba(3, 16, 27, 0.32);
-        border-left: 1px solid #01f3b9;
+        border-left: 1px solid #ffffffff;
     }
 
     .chat-message-element.element-system {
@@ -280,7 +280,7 @@
         display: inline-block;
         font-size: 14px;
         font-weight: 600;
-        color: #79afa1;
+        color: #ffffffff;
     }
 
     .chat-message-element .rain-content span.content-username,
@@ -336,7 +336,7 @@
     }
 
     .chat-message-element .element-message.message-blue button.button-user .avatar-image {
-        border: 2px solid #559ee4;
+        border: 2px solid #ffffffff;
     }
 
     .chat-message-element .element-message.message-green button.button-user .avatar-image {
@@ -356,7 +356,7 @@
     }
 
     .chat-message-element .element-message.message-partner button.button-user .avatar-image {
-        border: 2px solid #eca822;
+        border: 2px solid #ec2222ff;
     }
 
     .chat-message-element .element-message.message-mod button.button-user .avatar-image {
@@ -364,7 +364,7 @@
     }
 
     .chat-message-element .element-message.message-admin button.button-user .avatar-image {
-        border: 2px solid #00ffc2;
+        border: 2px solid #230041ff;
     }
 
     .chat-message-element button.button-user span.user-username {
@@ -394,7 +394,7 @@
     }
 
     .chat-message-element .element-message.message-admin button.button-user span.user-username {
-        background: linear-gradient(250deg, #00ffc2 0%, #00aa6d 100%), #a6cae8;
+        background: linear-gradient(250deg, #ffffffff 0%, #cc00ffff 100%), #ffffffff;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -436,7 +436,7 @@
     }
 
     .chat-message-element .top-admin button.button-remove .button-inner {
-        background: #f55046;
+        background: #ff0800ff;
     }
 
     .chat-message-element .top-admin button.button-mute .button-inner svg,
@@ -445,31 +445,31 @@
         fill: #ffffff;
     }
 
-    .chat-message-element .element-text {
-        width: 100%;
-        margin-top: 8px;
-        -ms-word-break: break-all;
-        word-break: break-all;
-        word-break: break-word;
-        text-align: left;
-        font-size: 14px;
-        font-weight: 400;
-        color: #bbbfd0;
-    }
+  .chat-message-element .element-text {
+    width: 100%;
+    margin-top: 8px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffffff;  /* This is the message text color */
+}
 
     .chat-message-element .element-message.message-partner .element-text {
-        color: #d6b233;
+        color: #ff0000ff;
     }
 
     .chat-message-element .element-message.message-admin .element-text {
-        color: #01f3b9;
+        color: #ffffffff;
     }
 
     .chat-message-element button.button-game {
         height: 34px;
         margin-top: 8px;
         padding: 1px;
-        background: #01ad6f;
+        background: #ffffffff;
         clip-path: polygon(6px 0, calc(100% - 6px) 0, 100% 25%, 100% 75%, calc(100% - 6px) 100%, 6px 100%, 0 75%, 0 25%);
     }
 

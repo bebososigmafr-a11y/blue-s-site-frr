@@ -26,7 +26,7 @@
         align-items: center;
         padding: 15px 40px 20px 28px;
         font-family: 'Rubik';
-        background: linear-gradient(255deg, #000911 -7%, rgba(0, 0, 0, 0) 55%), radial-gradient(90% 90% at 50% 28%, #0f7979 0%, #021729 100%);
+        background: linear-gradient(255deg, #000911 -7%, rgba(0, 0, 0, 0) 55%), radial-gradient(90% 90% at 50% 28%, #2c005eff 0%, #021729 100%);
     }
 
     .banner-mode .mode-text {
@@ -44,7 +44,7 @@
     }
 
     .banner-mode .text-title span {
-        color: #06f482;
+        color: #7204a5ff;
     }
 
     .banner-mode .text-info {

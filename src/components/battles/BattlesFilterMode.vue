@@ -73,13 +73,13 @@
         align-items: center;
         padding: 0 15px;
         background: linear-gradient(0deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%), 
-                    linear-gradient(223deg, rgba(5, 29, 48, 0.35) 0%, rgba(31, 99, 153, 0.1) 50%, rgba(5, 29, 48, 0.35) 100%);
-        border: 1px solid #0a273f;
+                    linear-gradient(223deg, rgba(45, 27, 105, 0.35) 0%, rgba(124, 58, 237, 0.1) 50%, rgba(45, 27, 105, 0.35) 100%);
+        border: 1px solid #2D1B69;
     }
 
     .battles-filter-mode button.button-toggle svg {
         width: 8px;
-        fill: #6e95b6;
+        fill: #A78BFA;
         transition: all 0.3s ease;
     }
 
@@ -90,7 +90,7 @@
     .battles-filter-mode .button-value {
         font-size: 14px;
         font-weight: 800;
-        color: #6e95b6;
+        color: #A78BFA;
     }
 
     .battles-filter-mode .button-value span {
@@ -118,8 +118,8 @@
 
     .battles-filter-mode .menu-inner {
         width: 100%;
-        background: #061d30;
-        border: 1px solid #0a273f;
+        background: #1A103C;
+        border: 1px solid #2D1B69;
     }
 
     .battles-filter-mode .menu-inner button {
@@ -130,8 +130,8 @@
         padding: 0 14px;
         font-size: 14px;
         font-weight: 600;
-        color: #8bacc8;
-        border-bottom: 1px solid #0a273f;
+        color: #A78BFA;
+        border-bottom: 1px solid #2D1B69;
         transition: all 0.3s ease;
     }
 
@@ -140,22 +140,19 @@
     }
 
     .battles-filter-mode .menu-inner button:hover {
-        background: rgba(19, 66, 88, 0.15);
+        background: rgba(124, 58, 237, 0.15);
+        color: #ffffff;
     }
 
     @media only screen and (max-width: 1100px) {
-
         .battles-filter-mode {
             width: calc(100% - 271px);
         }
-
     }
 
     @media only screen and (max-width: 500px) {
-
         .battles-filter-mode {
             width: 100%;
         }
-
     }
 </style>

@@ -90,9 +90,9 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px 40px 20px 25px;
-        background: linear-gradient(100deg, rgba(2, 243, 127, 0.74) 0%, rgba(2, 216, 113, 0.65) 7%, rgba(0, 0, 0, 0) 50%),
-                    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                    radial-gradient(110% 110% at 50% 30%, #005e3e 0%, #021729 100%);
+        background: linear-gradient(100deg, rgba(170, 164, 170, 0.74) 0%, rgba(14, 16, 122, 0.65) 7%, rgba(255, 0, 0, 0) 50%),
+                    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(184, 15, 155, 0.2)),
+                    radial-gradient(110% 110% at 50% 30%, #000000ff 0%, #021729 100%);
         overflow: hidden;
         z-index: 1;
     }
@@ -145,7 +145,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #01e1a4 100%);
+        background: linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, #ffffffff 100%);
         clip-path: polygon(5px 0, calc(100% - 5px) 0, 100% 25%, 100% 75%, calc(100% - 5px) 100%, 5px 100%, 0 75%, 0 25%);
     }
 
@@ -157,7 +157,7 @@
         align-items: center;
         font-size: 13px;
         font-weight: 800;
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) -90%, rgba(0, 33, 24, 0.15) -40%, rgba(0, 99, 73, 0.15) 230%, rgba(1, 193, 143, 0.1) 65%, rgba(1, 237, 176, 0.06) 100%), #0d262c;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) -90%, rgba(0, 33, 24, 0.15) -40%, rgba(0, 99, 73, 0.15) 230%, rgba(1, 193, 143, 0.1) 65%, rgba(1, 237, 176, 0.06) 100%), #321f9bff;
         clip-path: polygon(5px 0, calc(100% - 5px) 0, 100% 25%, 100% 75%, calc(100% - 5px) 100%, 5px 100%, 0 75%, 0 25%);
     }
 
@@ -170,12 +170,12 @@
         margin-top: 10px;
         font-size: 12px;
         font-weight: 500;
-        color: #a6d6c8;
+        color: #d6a6a6ff;
         font-family: 'Rubik';
     }
 
     .banner-rain .text-info span {
-        color: #01f4b7;
+        color: #ffffffff;
     }
 
     .banner-rain .text-bottom {
@@ -196,7 +196,7 @@
     .banner-rain .bottom-timer {
         margin-right: 8px;
         background: linear-gradient(90deg, rgba(0, 0, 0, 0.12) -100%, rgba(0, 33, 24, 0.15) -50%, rgba(0, 99, 73, 0.144986) 25%, rgba(1, 193, 143, 0.1) 65%, rgba(1, 237, 176, 0.07) 100%);
-        border: 0.5px solid #34b49e;
+        border: 0.5px solid #b43434ff;
     }
 
     .banner-rain .bottom-timer svg {
@@ -206,7 +206,7 @@
 
     .banner-rain .bottom-amount {
         background: rgba(143, 103, 5, 0.2);
-        border: 0.5px solid #ffcc51;
+        border: 0.5px solid #a72323ff;
     }
 
     .banner-rain .bottom-amount img {

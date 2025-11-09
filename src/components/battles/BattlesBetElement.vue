@@ -199,36 +199,36 @@
     }
 
     .battles-bet-element .element-top {
-        width: 100%;
-        height: 65px;
-        margin-bottom: 15px;
-        padding: 1px;
-        background: #0a273f;
-    }
+    width: 100%;
+    height: 65px;
+    margin-bottom: 15px;
+    padding: 1px;
+    background: #1A103C; /* Dark purple */
+}
 
     .battles-bet-element.element-winner .element-top {
-        background: linear-gradient(270deg, rgba(1, 229, 168, 0.7) 0%, rgba(0, 0, 0, 0) 45%), #0a273f;
-    }
+    background: linear-gradient(270deg, rgba(167, 139, 250, 0.7) 0%, rgba(0, 0, 0, 0) 45%), #1A103C;
+}
 
-    .battles-bet-element.element-lost .element-top {
-        background: linear-gradient(270deg, rgba(245, 80, 70, 0.7) 0%, rgba(0, 0, 0, 0) 45%), #0a273f;
-    }
+.battles-bet-element.element-lost .element-top {
+    background: linear-gradient(270deg, rgba(245, 80, 70, 0.7) 0%, rgba(0, 0, 0, 0) 45%), #1A103C;
+}
 
     .battles-bet-element .top-inner {
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(223deg, rgba(5, 29, 48, 0.35) 0%, rgba(31, 99, 153, 0.1) 50%, rgba(5, 29, 48, 0.35) 100%), #041f35;
-    }
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(223deg, rgba(45, 27, 105, 0.35) 0%, rgba(124, 58, 237, 0.1) 50%, rgba(45, 27, 105, 0.35) 100%), #2D1B69;
+}
 
-    .battles-bet-element.element-winner .top-inner {
-        background: linear-gradient(223deg, rgba(1, 232, 171, 0.2) 0%, rgba(0, 0, 0, 0) 50%), 
-                    linear-gradient(223deg, rgba(5, 29, 48, 0.35) 0%, rgba(31, 99, 153, 0.1) 50%, rgba(5, 29, 48, 0.35) 100%), #041f35;
-    }
+.battles-bet-element.element-winner .top-inner {
+    background: linear-gradient(223deg, rgba(167, 139, 250, 0.2) 0%, rgba(0, 0, 0, 0) 50%), 
+                linear-gradient(223deg, rgba(45, 27, 105, 0.35) 0%, rgba(124, 58, 237, 0.1) 50%, rgba(45, 27, 105, 0.35) 100%), #2D1B69;
+}
 
-    .battles-bet-element.element-lost .top-inner {
-        background: linear-gradient(223deg, rgba(235, 42, 42, 0.2) 0%, rgba(0, 0, 0, 0) 50%),
-                    linear-gradient(223deg, rgba(5, 29, 48, 0.35) 0%, rgba(31, 99, 153, 0.1) 50%, rgba(5, 29, 48, 0.35) 100%), #041f35;
-    }
+.battles-bet-element.element-lost .top-inner {
+    background: linear-gradient(223deg, rgba(235, 42, 42, 0.2) 0%, rgba(0, 0, 0, 0) 50%),
+                linear-gradient(223deg, rgba(45, 27, 105, 0.35) 0%, rgba(124, 58, 237, 0.1) 50%, rgba(45, 27, 105, 0.35) 100%), #2D1B69;
+}
 
     .battles-bet-element .inner-info {
         width: 100%;
@@ -248,16 +248,16 @@
     }
 
     .battles-bet-element.element-winner .info-user span {
-        background: linear-gradient(255deg, #00ffc2 0%, #00aa6d 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent; 
-    }
+    background: linear-gradient(255deg, #A78BFA 0%, #7C3AED 100%); /* Purple gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent; 
+}
 
     .battles-bet-element.element-lost .info-user span {
-        color: #f55046;
-    }
+    color: #ff6b6b; /* Softer red */
+}
 
     .battles-bet-element .user-avatar {
         width: 37px;
@@ -301,7 +301,7 @@
 
     .battles-bet-element .info-user.user-bot .user-avatar,
     .battles-bet-element .info-user.user-admin .user-avatar {
-        border: 2px solid #00ffc2;
+        border: 2px solid #621188ff;
     }
 
     .battles-bet-element .user-avatar .avatar-image {
@@ -321,16 +321,16 @@
     }
 
     .battles-bet-element .amount-value {
-        font-size: 11px;
-        font-weight: 600;
-        color: #bbbfd0;
-    }
+    font-size: 11px;
+    font-weight: 600;
+    color: #ffffff; /* White */
+}
 
-    .battles-bet-element .amount-value span {
-        font-size: 15px;
-        font-weight: 800;
-        color: #ffffff;
-    }
+.battles-bet-element .amount-value span {
+    font-size: 15px;
+    font-weight: 800;
+    color: #ffffff; /* White */
+}
 
     .battles-bet-element .inner-actions {
         width: 100%;
@@ -349,7 +349,7 @@
         left: 15px;
         transform: translate(0, -50%);
         padding: 1px;
-        filter: drop-shadow(0px 1px 15px rgba(1, 230, 169, 0.63));
+        filter: drop-shadow(0px 1px 15px rgba(55, 0, 255, 0.63));
     }
 
     .battles-bet-element .actions-funding:before {
@@ -359,29 +359,29 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: #01c98c;
+        background: #4701c9ff;
         clip-path: polygon(4px 0, calc(100% - 4px) 0, 100% 25%, 100% 75%, calc(100% - 4px) 100%, 4px 100%, 0 75%, 0 25%);
     }
 
-    .battles-bet-element .funding-inner {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: linear-gradient(242deg, rgba(0, 255, 194, 0.44) 16%, rgba(0, 231, 170, 0.22) 32%, rgba(0, 218, 157, 0.1) 50%, rgba(0, 195, 134, 0.26) 80%, rgba(0, 170, 109, 0.44) 100%), 
-                    linear-gradient(180deg, #073137 0%, #082538 100%);
-        clip-path: polygon(4px 0, calc(100% - 4px) 0, 100% 25%, 100% 75%, calc(100% - 4px) 100%, 4px 100%, 0 75%, 0 25%);
-    }
+.battles-bet-element .funding-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(242deg, rgba(167, 139, 250, 0.44) 16%, rgba(124, 58, 237, 0.22) 32%, rgba(107, 33, 168, 0.1) 50%, rgba(124, 58, 237, 0.26) 80%, rgba(167, 139, 250, 0.44) 100%), 
+                linear-gradient(180deg, #2D1B69 0%, #1A103C 100%); /* Purple theme */
+    clip-path: polygon(4px 0, calc(100% - 4px) 0, 100% 25%, 100% 75%, calc(100% - 4px) 100%, 4px 100%, 0 75%, 0 25%);
+}
 
     .battles-bet-element .funding-inner span {
-        font-size: 11px;
-        font-weight: 800;
-        background: linear-gradient(239deg, #00ffc2 -100%, #00aa6d 120%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+    font-size: 11px;
+    font-weight: 800;
+    background: linear-gradient(239deg, #A78BFA -100%, #7C3AED 120%); /* Purple gradient */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
     .battles-bet-element button.button-join {
         width: 150px;
@@ -391,25 +391,26 @@
     }
 
     .battles-bet-element.top-actions button.button-join:before {
-        content: '';
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: linear-gradient(180deg, rgba(0, 170, 109, 0) 0%, #00ffc2 100%);
-        clip-path: polygon(6px 0, calc(100% - 6px) 0, 100% 25%, 100% 75%, calc(100% - 6px) 100%, 6px 100%, 0 75%, 0 25%);
-    }
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(167, 139, 250, 0.5) 0%, #7C3AED 100%); /* Purple glow */
+    clip-path: polygon(6px 0, calc(100% - 6px) 0, 100% 25%, 100% 75%, calc(100% - 6px) 100%, 6px 100%, 0 75%, 0 25%);
+}
 
     .battles-bet-element button.button-join .button-inner {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: linear-gradient(255deg, #00ffc2 0%, #00aa6d 100%);
-        clip-path: polygon(5px 0, calc(100% - 5px) 0, 100% 25%, 100% 75%, calc(100% - 5px) 100%, 5px 100%, 0 75%, 0 25%);
-    }
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(255deg, #A78BFA 0%, #7C3AED 100%); /* Purple gradient */
+    clip-path: polygon(5px 0, calc(100% - 5px) 0, 100% 25%, 100% 75%, calc(100% - 5px) 100%, 5px 100%, 0 75%, 0 25%);
+    transition: all 0.3s ease;
+}
 
     .battles-bet-element button.button-join .button-loading.fade-leave-active {
         transition: opacity 0.1s;
@@ -449,7 +450,7 @@
         margin-right: 6px;
         border-radius: 50%;
         background: rgba(0, 0, 0, 0.2);
-        border: 1px solid #4adeaf;
+        border: 1px solid #3706beff;
         overflow: hidden;
     }
 
@@ -459,13 +460,13 @@
     }
 
     .battles-bet-element .element-items {
-        width: 100%;
-        height: 400px;
-        padding: 4px;
-        overflow-x: scroll;
-        background: rgba(2, 21, 36, 0.35);
-        border: 1px solid #0a273f;
-    }
+    width: 100%;
+    height: 400px;
+    padding: 4px;
+    overflow-x: scroll;
+    background: rgba(26, 16, 60, 0.35); /* Dark purple */
+    border: 1px solid #2D1B69; /* Medium purple */
+}
 
     .battles-bet-element .items-list {
         width: 100%;
